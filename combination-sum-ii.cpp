@@ -50,7 +50,7 @@ void helper(vector<vector<int>>&res, vector<int>& solution, vector<int>& candida
     }
 }
 
-vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
     vector<vector<int>> result;
     if (candidates.size() == 0) return result;
     vector<int> solution;
